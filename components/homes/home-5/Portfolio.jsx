@@ -75,6 +75,7 @@ export default function Portfolio() {
                     src={item.imageSrc}
                     width={650}
                     height={761}
+                    objectFit="cover"
                     alt="Work Description"
                   />
                 </div>
