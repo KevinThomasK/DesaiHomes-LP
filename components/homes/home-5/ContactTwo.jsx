@@ -101,9 +101,8 @@ export default function Contact() {
                 </div>
                 <h4 className="alt-features-title">Location</h4>
                 <div className="alt-features-descr">
-                  T.C-2/24008 (5) 3rd Floor, Asiatic Business Centre, Near
-                  Nippon Toyota Showroom, By-pass Road, Kulathoor.P.O,
-                  Kazhakuttom, Trivandrum - 695583, Kerala, India.
+                  Edavilakom Rd, Kunnumpuram, Murukkumpuzha, Pallippuram, Kerala
+                  695302
                 </div>
               </div>
             </div>
@@ -114,7 +113,7 @@ export default function Contact() {
       <div className="row wow fadeInUp" data-wow-delay="0.5s">
         <div className="col-md-6 mb-sm-50">
           {/* Contact Form */}
-          <div className="location-highlights">
+          {/* <div className="location-highlights">
             <h4>Location Highlights</h4>
             <ul>
               <li>Prime location in the heart of the city</li>
@@ -128,6 +127,100 @@ export default function Contact() {
               <li>5-minute drive to the city’s business district</li>
               <li>Modern infrastructure and facilities</li>
             </ul>
+          </div> */}
+
+          <div className="location-highlight">
+            <h4>Location Highlights</h4>
+            <table className="table table-sm compact-table">
+              <tbody>
+                <tr>
+                  <td>Technocity, Pallippuram</td>
+                  <td>3.50 Km</td>
+                </tr>
+                <tr>
+                  <td>Nissan Digital Hub</td>
+                  <td>2.50 Km</td>
+                </tr>
+                <tr>
+                  <td>Proposed Light Metro</td>
+                  <td>3.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Bio Life Science Park, Thonnackal</td>
+                  <td>4.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Kendriya Vidyalaya, Pallippuram</td>
+                  <td>3.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Blue Mount Public School, Thonnackal</td>
+                  <td>3.50 Km</td>
+                </tr>
+                <tr>
+                  <td>Trivandrum International School</td>
+                  <td>7.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Murukkumpuzha Railway Station</td>
+                  <td>1.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Kaniyapuram Railway Station</td>
+                  <td>3.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Sainik School, Pallippuram</td>
+                  <td>8.00 Km</td>
+                </tr>
+                <tr>
+                  <td>
+                    St. Thomas Institute for Science & Technology, Chandavila
+                  </td>
+                  <td>11.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Kaniyapuram KSRTC Bus Depot</td>
+                  <td>3.50 Km</td>
+                </tr>
+                <tr>
+                  <td>MGM School, Kazhakuttom</td>
+                  <td>11.50 Km</td>
+                </tr>
+                <tr>
+                  <td>Technopark, Kazhakuttom</td>
+                  <td>7.50 Km</td>
+                </tr>
+                <tr>
+                  <td>Kazhakuttom Railway Station</td>
+                  <td>8.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Taurus Zentrum Mall</td>
+                  <td>8.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Infosys & UST Global</td>
+                  <td>10.50 Km</td>
+                </tr>
+                <tr>
+                  <td>Green Field Sports Hub</td>
+                  <td>8.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Lulu Mall</td>
+                  <td>13.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Trivandrum International Airport</td>
+                  <td>17.00 Km</td>
+                </tr>
+                <tr>
+                  <td>Mangalapuram Junction (NH)</td>
+                  <td>2.50 Km</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
           {/* End Contact Form */}
@@ -136,7 +229,7 @@ export default function Contact() {
           {/* Google Map */}
           <div className="map-boxed">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.45923412328!2d76.87455117599315!3d8.551761196274711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bef6c582eb75%3A0xa4aa8795631506d7!2sDesai%20Homes!5e0!3m2!1sen!2sin!4v1729234592889!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.8631957683406!2d76.83702857599349!3d8.609130695417962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05abbbd75e424b%3A0x277987eb020ebde8!2sDD%20Sports%20City%20Trivandrum!5e0!3m2!1sen!2sin!4v1729249042717!5m2!1sen!2sin"
               allowfullscreen=""
               referrerpolicy="no-referrer-when-downgrade"
               width={600}

@@ -14648,7 +14648,7 @@ html:not(.mobile) .owl-animate-fadeInDown {
 
 /* Modal body */
 .unique-modal-body {
-  background-color: #e0f7f1 ;
+  background-color: #e0f7f1;
   padding: 1rem;
   /* Increased padding */
   overflow-y: auto;
@@ -14663,6 +14663,20 @@ html:not(.mobile) .owl-animate-fadeInDown {
 
 /* unique modal style end */
 
+
+.compact-table td {
+  padding: 4px 8px;
+  /* Less padding for compact look */
+  font-size: 14px;
+  /* Smaller font size */
+  line-height: 1.2;
+  /* Reduced line-height */
+}
+
+table.table-sm {
+  margin-bottom: 0;
+  /* Remove bottom margin if not needed */
+}
 
 
 
