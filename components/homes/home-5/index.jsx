@@ -305,8 +305,8 @@ export default function Home5({ onePage = false, dark = false }) {
                   {onePage ? (
                     <>
                       {" "}
-                      <a
-                        href="#team"
+                      <button
+                        onClick={openModal}
                         className="link-hover-anim link-circle-1 align-middle"
                         data-link-animate="y"
                       >
@@ -329,7 +329,7 @@ export default function Home5({ onePage = false, dark = false }) {
                             aria-hidden="true"
                           ></i>
                         </span>
-                      </a>
+                      </button>
                     </>
                   ) : (
                     <>
