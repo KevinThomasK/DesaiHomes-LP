@@ -311,7 +311,7 @@ export default function Home5({ onePage = false, dark = false }) {
                         data-link-animate="y"
                       >
                         <span className="link-strong link-strong-unhovered">
-                          I'm Interested{" "}
+                          I&#39;m Interested{" "}
                           <span className="visually-hidden">about us</span>{" "}
                           <i
                             className="mi-arrow-right size-18 align-middle"
@@ -322,7 +322,7 @@ export default function Home5({ onePage = false, dark = false }) {
                           className="link-strong link-strong-hovered"
                           aria-hidden="true"
                         >
-                          I'm Interested{" "}
+                          I&#39;m Interested{" "}
                           <span className="visually-hidden">about us</span>{" "}
                           <i
                             className="mi-arrow-right size-18 align-middle"

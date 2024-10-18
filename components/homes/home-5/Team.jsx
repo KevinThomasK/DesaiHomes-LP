@@ -10,9 +10,9 @@ export default function Team() {
             <span className="text-gray">Our</span> Projects
             <span className="text-gray">.</span>
           </h2>
-          <div className="text-gray">
-            Be part of Kerala's first sports-themed 2&3BHK flats, DD Sports City
-            at Pallipuram, near Technocity by Desai Homes.
+          <div className="text-gray" style={{ textTransform: "capitalize" }}>
+            Be part of Kerala&#39;s first sports-themed 2&3BHK flats, DD Sports
+            City at Pallipuram, near Technocity by Desai Homes.
           </div>
         </div>
       </div>

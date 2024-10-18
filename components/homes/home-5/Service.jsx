@@ -16,9 +16,12 @@ export default function Service() {
               <h2 className="section-title mb-30 mb-sm-20">
                 Pre-Approved Loan.
               </h2>
-              <div className="text-gray">
-                Be part of Kerala's first sports-themed 2&3BHK flats, DD Sports
-                City at Pallipuram, near Technocity by Desai Homes.
+              <div
+                className="text-gray"
+                style={{ textTransform: "capitalize" }}
+              >
+                Be part of Kerala&#39;s first sports-themed 2&3BHK flats, DD
+                Sports City at Pallipuram, near Technocity by Desai Homes.
               </div>
             </div>
           </div>
