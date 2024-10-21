@@ -53,7 +53,7 @@ export default function Hero1() {
     <>
       <ModalTrigger isOpen={isModalOpen} onClose={closeModal} />
       <div
-        className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection"
+        className="home-section bg-dark-alpha-30  light-content z-index-1 scrollSpysection"
         style={{
           backgroundImage: `url(${currentBackgroundImage})`, // Use dynamic background image
           transition: "background-image 1s ease-in-out",

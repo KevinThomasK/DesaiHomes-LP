@@ -32,7 +32,7 @@ export default function Home5({ onePage = false, dark = false }) {
         {dark ? <MarqueeDark /> : <Marquee />}
       </div>
       <section
-        className="page-section pt-0 pb-0 bg-dark-1 bg-dark-alpha-80 parallax-6 light-content"
+        className="page-section pt-0 pb-0 bg-dark-1 bg-dark-alpha-80 light-content"
         style={{
           backgroundImage: "url(/assets/images/dd/dd-2.webp)",
         }}
