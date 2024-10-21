@@ -27,15 +27,15 @@ export default function Home5MainDemoOnepage() {
             <Header5 links={elegantOnepage} />
           </nav>
           <main id="main">
-            {/* <ParallaxContainer
+            <ParallaxContainer
               className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection"
               style={{
                 backgroundImage: "url(/assets/images/dd/dd-2.webp)",
               }}
               id="home"
-            > */}
-            <Hero1 />
-            {/* </ParallaxContainer> */}
+            >
+              <Hero1 />
+            </ParallaxContainer>
 
             {/* <Hero /> */}
 
