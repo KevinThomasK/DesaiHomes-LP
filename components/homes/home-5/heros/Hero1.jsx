@@ -16,17 +16,14 @@ export default function Hero1() {
   };
 
   useEffect(() => {
-    // Set a timeout to open the modal after 10 seconds
     const initialTimeout = setTimeout(() => {
       openModal();
-    }, 10000); // 10 seconds
+    }, 10000);
 
-    // Set an interval to open the modal every 35 seconds after the initial open
     const interval = setInterval(() => {
       openModal();
-    }, 35000); // 35 seconds
+    }, 40000);
 
-    // Cleanup the timers on component unmount
     return () => {
       clearTimeout(initialTimeout);
       clearInterval(interval);
@@ -40,9 +37,9 @@ export default function Hero1() {
       <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
         {/* Home Section Content */}
         <div className="home-content text-center">
-          <h2 className="section-title-tiny mb-50 mb-sm-30 wow fadeInDownShort">
+          {/* <h2 className="section-title-tiny mb-50 mb-sm-30 wow fadeInDownShort">
             Desai Homes
-          </h2>
+          </h2> */}
           <h1 className="hs-title-3 mb-80 mb-sm-50 mb-xs-30">
             <span className="wow charsAnimInLong" data-splitting="chars">
               <AnimatedText text="Kerala’s No.1 Sports-Themed Flats in Trivandrum – Designed for Active Living!" />

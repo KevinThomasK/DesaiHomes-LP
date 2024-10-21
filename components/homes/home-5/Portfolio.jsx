@@ -6,8 +6,10 @@ import Link from "next/link";
 import ImageModal from "@/components/ImageModal"; // Import your modal component
 
 const filters = [
-  { name: "Amenities", category: "design" },
-  { name: "Floor Plan", category: "branding" },
+  { name: "Exclussive Amenities", category: "design" },
+  { name: "Pavillion(Floor Plan)", category: "branding" },
+  { name: "Hippodrome(Floor Plan)", category: "hippo" },
+  { name: "Galleria(Floor Plan)", category: "galleria" },
 ];
 
 export default function Portfolio() {

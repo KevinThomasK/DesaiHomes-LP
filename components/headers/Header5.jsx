@@ -13,10 +13,10 @@ export default function Header5({ links }) {
       <div className="nav-logo-wrap local-scroll">
         <a href="#top" className="logo font-alt">
           <Image
-            src="/assets/images/dd/logo.jpg"
+            src="/assets/images/dd/logo.png"
             alt="Your Company Logo"
-            width={100}
-            height={50}
+            width={80}
+            height={40}
           />
         </a>
       </div>

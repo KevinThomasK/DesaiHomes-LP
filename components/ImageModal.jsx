@@ -14,7 +14,7 @@ const ImageModal = ({ isOpen, imageSrc, onClose }) => {
         >
           &times;
         </button>
-        <Image src={imageSrc} width={650} height={761} alt="Selected Image" />
+        <Image src={imageSrc} width={780} height={861} alt="Selected Image" />
       </div>
       <style jsx>{`
         .modal-overlay {

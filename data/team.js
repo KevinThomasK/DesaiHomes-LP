@@ -42,8 +42,8 @@ export const teamMembers = [
 ];
 export const teamMembers2 = [
   {
-    name: "AMRUTHA TECHNOLOGY",
-    role: "Pallipuram, Kazhakootam",
+    name: "DD Sports City Hippodrome",
+    role: "Pallippuram, Trivandrum",
     image: "/assets/images/dd/d-2.webp",
     socials: [
       { name: "Facebook", url: "#" },
@@ -52,9 +52,9 @@ export const teamMembers2 = [
     ],
   },
   {
-    name: "PEARL",
-    role: "Kumarapuram, Trivandrum",
-    image: "/assets/images/dd/d-3.webp",
+    name: "DD Sports City Pavillion",
+    role: "Pallippuram, Trivandrum",
+    image: "/assets/images/dd/pav.png",
     socials: [
       { name: "Facebook", url: "#" },
       { name: "Twitter", url: "#" },
@@ -62,8 +62,8 @@ export const teamMembers2 = [
     ],
   },
   {
-    name: "LIFE",
-    role: "Vazhayila, Peeroorkada",
+    name: "DD Sports City Galleria",
+    role: "Pallippuram, Trivandrum",
     image: "/assets/images/dd/d-1.webp",
     socials: [
       { name: "Facebook", url: "#" },

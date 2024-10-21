@@ -28,6 +28,7 @@ const FullScreenModal = ({ isOpen, onClose }) => {
             className="unique-modal-header d-flex justify-content-end"
             style={{ maxHeight: "30px" }}
           >
+            <img src="/assets/images/dd/logo.png" style={{position:"absolute",left:"13px",top:"10px",maxWidth:"42px"}}/>
             <button
               type="button"
               className="unique-close-btn"
