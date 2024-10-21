@@ -1,17 +1,18 @@
 import Footer5 from "@/components/footers/Footer5";
 import Header5 from "@/components/headers/Header5";
-import Hero from "@/components/homes/Hero";
+//import Hero from "@/components/homes/Hero";
 import Home5 from "@/components/homes/home-5";
-//import Hero1 from "@/components/homes/home-5/heros/Hero1";
+import Hero1 from "@/components/homes/home-5/heros/Hero1";
 import Stickymodal from "@/components/Stickymodal";
 import { elegantOnepage } from "@/data/menu";
-// import dynamic from "next/dynamic";
-// const ParallaxContainer = dynamic(
-//   () => import("@/components/common/ParallaxContainer"),
-//   {
-//     ssr: false,
-//   }
-// );
+import dynamic from "next/dynamic";
+
+const ParallaxContainer = dynamic(
+  () => import("@/components/common/ParallaxContainer"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Desai-Homes",
@@ -29,13 +30,14 @@ export default function Home5MainDemoOnepage() {
             {/* <ParallaxContainer
               className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection"
               style={{
-                backgroundImage: "url(/assets/images/dd/dd-1.webp)",
+                backgroundImage: "url(/assets/images/dd/dd-2.webp)",
               }}
               id="home"
-            >
-              <Hero1 />
-            </ParallaxContainer> */}
-            <Hero />
+            > */}
+            <Hero1 />
+            {/* </ParallaxContainer> */}
+
+            {/* <Hero /> */}
 
             <Home5 onePage />
           </main>
