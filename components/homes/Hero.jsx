@@ -12,7 +12,7 @@ const BackgroundSlider = dynamic(
 const Hero = () => {
   return (
     <BackgroundSlider
-      className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection" 
+      className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection"
       id="home"
     >
       <Hero1 />

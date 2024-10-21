@@ -24,6 +24,8 @@ const BackgroundSlider = ({ className, style, id, children }) => {
         ...style,
         backgroundImage: `url(${images[currentImage]})`,
         backgroundSize: "cover",
+        backgroundAttachment: "fixed",
+        WebkitBackgroundSize: "cover",
         backgroundPosition: "center",
         transition: "background-image 1s ease-in-out",
       }}
