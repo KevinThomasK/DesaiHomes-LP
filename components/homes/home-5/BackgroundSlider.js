@@ -13,7 +13,7 @@ const BackgroundSlider = ({ className, style, id, children }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 4000); // Change image every 5 seconds
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -23,11 +23,13 @@ const BackgroundSlider = ({ className, style, id, children }) => {
       style={{
         ...style,
         backgroundImage: `url(${images[currentImage]})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         transition: "background-image 1s ease-in-out",
       }}
       id={id}
     >
-      {children}
+      {children} {/* Content, e.g., Hero component */}
     </div>
   );
 };

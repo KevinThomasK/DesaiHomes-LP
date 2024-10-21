@@ -2,16 +2,22 @@ import Footer5 from "@/components/footers/Footer5";
 import Header5 from "@/components/headers/Header5";
 import Hero from "@/components/homes/Hero";
 import Home5 from "@/components/homes/home-5";
-//import Hero1 from "@/components/homes/home-5/heros/Hero1";
+import Hero1 from "@/components/homes/home-5/heros/Hero1";
 import Stickymodal from "@/components/Stickymodal";
 import { elegantOnepage } from "@/data/menu";
-// import dynamic from "next/dynamic";
-// const ParallaxContainer = dynamic(
-//   () => import("@/components/common/ParallaxContainer"),
-//   {
-//     ssr: false,
-//   }
-// );
+import dynamic from "next/dynamic";
+const ParallaxContainer = dynamic(
+  () => import("@/components/common/ParallaxContainer"),
+  {
+    ssr: false,
+  }
+);
+const BackgroundSlider = dynamic(
+  () => import("@/components/homes/home-5/BackgroundSlider"),
+  {
+    ssr: false, // This ensures it's only rendered on the client-side
+  }
+);
 export const metadata = {
   title: "Desai-Homes",
   description: "Desai-Homes-Landing-Page",
@@ -25,6 +31,12 @@ export default function Home5MainDemoOnepage() {
             <Header5 links={elegantOnepage} />
           </nav>
           <main id="main">
+            <BackgroundSlider
+              className="home-section bg-dark-alpha-30 light-content z-index-1 scrollSpysection"
+              id="home"
+            >
+              <Hero1 />
+            </BackgroundSlider>
             {/* <ParallaxContainer
               className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection"
               style={{
@@ -34,7 +46,7 @@ export default function Home5MainDemoOnepage() {
             >
               <Hero1 />
             </ParallaxContainer> */}
-            <Hero />
+            {/* <Hero /> */}
 
             <Home5 onePage />
           </main>
